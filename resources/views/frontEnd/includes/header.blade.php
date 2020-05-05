@@ -34,9 +34,9 @@
     <div class="container">
       <ul class="main-menu">
         <li><a href="{{ url('/') }}">Home</a></li>
-        <li><a href="{{ url('/contacto') }}">Contacto</a></li>
         <li id="catDesktop"><a href="{{ url('/all') }}">Categorías</a></li>
         <li><a href="{{ url('/about') }}">Sobre Nosotros</a></li>
+        <li><a href="{{ url('/contacto') }}">Contacto</a></li>
       </ul>
       <div id="navbarContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">

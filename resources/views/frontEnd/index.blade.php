@@ -6,6 +6,7 @@
 
   @include('frontEnd.includes.banner')
   @include('frontEnd.includes.destacados')
+  @include('frontEnd.includes.products')
   @include('frontEnd.includes.categorias')
   @include('frontEnd.includes.footerBanner')
 

@@ -9,7 +9,7 @@
   <div class="container">
     <h4>Sobre Nosotros</h4>
     <div class="site-pagination">
-      <a href="{{ url('/') }}">Home</a> /
+      <a href="{{ url('/') }}">Home</a>
       <a href="{{ url('/about') }}">Sobre Nosotros</a>
     </div>
   </div>

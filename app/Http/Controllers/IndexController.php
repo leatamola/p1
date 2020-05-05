@@ -16,7 +16,8 @@ class IndexController extends Controller
         $destacados = Products_model::all()->where('destacado', 1)->take(4);
         $cuarentenas = Products_model::all()->where('cuarentena', 1)->take(4);
         $products=Products_model::all();
-        return view('frontEnd.index',compact('products','menu_active','categories','destacados'));
+        $algunos_productos=Products_model::orderByRaw("RAND()")->get()->take(8);
+        return view('frontEnd.index',compact('products','menu_active','categories','destacados', 'algunos_productos'));
     }
     public function shop(){
       $categories = Category_model::all();

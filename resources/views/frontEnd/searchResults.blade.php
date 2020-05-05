@@ -4,6 +4,16 @@
 @endsection
 @section('content')
 
+<div class="page-top-info">
+  <div class="container">
+    <h1>Resultados de "{{ request()->input('query') }}":</h1>
+    <div class="site-pagination">
+      <a href="{{ url('/') }}">Home</a> /
+      <a href="{{ url('/contacto') }}">Contacto</a>
+    </div>
+  </div>
+</div>
+
 <!-- Category section -->
 <section class="category-section spad">
   <div class="container">
@@ -11,8 +21,8 @@
 
       <div class="col-lg-3 order-2 order-lg-1">
         <div class="filter-widget">
-          <h2 class="fw-title">Categories</h2>
-          <h3 class="fw-title">Resultados for {{ request()->input('query') }}</h3>
+
+          <h2 class="fw-title">Categorias:</h2>
           <ul class="category-menu">
             @foreach ($categories as $category)
               <li><a href="{{ url('/cat',$category->id) }}">{{ $category->name }}</a></li>

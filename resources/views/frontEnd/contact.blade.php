@@ -35,7 +35,7 @@
           <span style="color:red"> {{$errors->first('email') }} </span>
           <input type="text" name="subject" placeholder="Su Negocio" value"{{ old('subject') }}">
           <span style="color:red"> {{$errors->first('subject') }} </span>
-          <textarea name="message" placeholder="Mensaje" value"{{ old('message') }}"></textarea>
+          <textarea name="message" placeholder="Contanos sobre tu Servicio" value"{{ old('message') }}"></textarea>
           <span style="color:red"> {{$errors->first('message') }} </span>
           @csrf
           <button type="submit" class=" justify-content-end site-btn">Enviar</button>

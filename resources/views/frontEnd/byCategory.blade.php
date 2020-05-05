@@ -11,8 +11,8 @@
 
       <div class="col-lg-3 order-2 order-lg-1">
         <div class="filter-widget">
-          <h2 class="fw-title">Categories</h2>
-          <h3 class="fw-title">Resultados for {{ request()->input('query') }}</h3>
+          <h2 class="fw-title">Categorias</h2>
+          <h3 class="fw-title">Resultados de "{{ request()->input('query') }}"</h3>
           <ul class="category-menu">
             @foreach ($categories as $category)
               <li><a href="#">{{ $category->name }}</a></li>

@@ -1,5 +1,5 @@
 
-<section class="top-letest-product-section">
+<section class="destacados-product-section">
   <div class="container">
     <div class="section-title">
       <h2>FUNCIONANDO EN CUARENTENA</h2>

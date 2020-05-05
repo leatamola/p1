@@ -5,10 +5,10 @@
 <!-- Page info -->
 <div class="page-top-info">
   <div class="container text-md-left text-center">
-    <h4> {{$detail_product->p_name}} </h4>
+    <h4> {{$detail_product->title}} </h4>
     <div class="site-pagination">
-      <a href="">Home</a> /
-      <a href="">{{$detail_product->category->name}}</a>
+      <a href="{{ url('/') }}">Home</a> /
+      <a href="{{ url('/all') }}">{{$detail_product->category->name}}</a>
     </div>
   </div>
 </div>
@@ -37,8 +37,6 @@
         </div>
       </div>
       <div class="col-lg-6 product-details">
-        <h4 class="p-title">{{$detail_product->category->name}}</h4>
-        <h2 class="p-title">{{$detail_product->p_name}}</h2>
         <div id="accordion" class="accordion-area">
           <div class="panel">
             <div class="panel-header" id="headingOne">
@@ -55,7 +53,7 @@
                 @endif
 
                 @if($detail_product->whatsapp)
-                  <p><span>Whatsapp: </span><a target="_blank" href="https://wa.me/{{$detail_product->whatsapp}}">{{$detail_product->whatsapp}}</a> - <a href="https://wa.me/{{$detail_product->whatsapp}}">{{$detail_product->whatsapp2}}</a></p>
+                  <p><span>Whatsapp: </span><a target="_blank" href="https://wa.me/{{$detail_product->whatsapp}}">{{$detail_product->whatsapp}}</a>   <a href="https://wa.me/{{$detail_product->whatsapp}}">{{$detail_product->whatsapp2}}</a></p>
                 @endif
 
                 @if($detail_product->cuarentena)
@@ -81,18 +79,8 @@
               </div>
             </div>
           </div>
-          <div class="panel">
-            <div class="panel-header" id="headingThree">
-              <button class="panel-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Sobre {{$detail_product->p_name}} </button>
-            </div>
-            <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="panel-body">
-                <p>{{$detail_product->description2}}</p>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="social-links text-center my-3">
+        <div class="social-links my-3">
           @if($detail_product->facebook)
             <a target="_blank" href="https://www.facebook.com/{{$detail_product->facebook}}"><i id="facebookIcon" class="fa fa-facebook"></i></a>
           @endif

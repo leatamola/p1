@@ -30,7 +30,7 @@ h6 {
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 24px;
 }
 
 h2 {
@@ -72,6 +72,17 @@ textarea:focus {
 
 #anunciaCon:hover{
 	 color: #f51167;
+}
+
+#buttonVerMas{
+	color: black;
+}
+#buttonVerMas:hover{
+	color: #f51167;
+}
+
+#categoriesHome{
+	display: block;
 }
 a:hover,
 a:focus {
@@ -131,6 +142,7 @@ ol {
 
 .cat-list:hover{
 	background: #f6f6f6;
+	font-size: 13px;
 }
 
 .section-title {
@@ -297,7 +309,6 @@ ol {
 /* Accordion */
 
 .accordion-area {
-	margin-top: 50px;
 	border-top: 2px solid #e1e1e1;
 }
 
@@ -885,7 +896,17 @@ ol {
 	padding-bottom: 60px;
 }
 
+
 .top-letest-product-section .section-title {
+	margin-bottom: 70px;
+}
+
+.destacados-product-section {
+	padding-top: 70px;
+}
+
+
+.destacados-product-section .section-title {
 	margin-bottom: 70px;
 }
 
@@ -1306,6 +1327,11 @@ ol {
 }
 
 .page-top-info h4 {
+	color: #414141;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.page-top-info h1 {
 	color: #414141;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -2431,6 +2457,9 @@ ol {
 @media only screen and (max-width: 767px) {
 	.bottom-search-form{
 		width: 80%;
+	}
+	#categoriesHome{
+		display: none;
 	}
 	#catDesktop{
 		display: block;

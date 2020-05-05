@@ -1,5 +1,5 @@
 <!-- Product filter section -->
-<section class="product-filter-section">
+<section id="categoriesHome" class="product-filter-section">
   <div class="container">
     <div class="section-title">
       <h2>CATEGORÍAS</h2>
