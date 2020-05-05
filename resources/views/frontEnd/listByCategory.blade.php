@@ -1,5 +1,5 @@
 @extends('frontEnd.layouts.masterBarrios')
-@section('title','Resultados de Busqueda')
+@section('title','BUSCATI - CATEGORÍAS')
 @section('slider')
 @endsection
 @section('content')
@@ -27,7 +27,7 @@
       <div class="col-lg-9  order-1 order-lg-2 mb-5 mb-lg-0">
         <div class="row">
           @foreach ($list_product as $product)
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-3 col-sm-3">
             <div class="product-item">
               <div class="pi-pic">
                 <img src="{{  url('products/small/',$product->image)  }}" alt="{{ $product->title }}">

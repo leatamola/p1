@@ -1,5 +1,5 @@
 @extends('frontEnd.layouts.masterBarrios')
-@section('title','List Products')
+@section('title','BUSCATI - CONTACTO')
 @section('slider')
 @endsection
 @section('content')

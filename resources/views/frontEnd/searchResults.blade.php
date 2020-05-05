@@ -1,5 +1,5 @@
 @extends('frontEnd.layouts.masterBarrios')
-@section('title','Resultados de Busqueda')
+@section('title','BUSCATI - RESULTADOS de BUSQUEDA')
 @section('slider')
 @endsection
 @section('content')

@@ -87,6 +87,7 @@
 .flaticon-presentation:before { content: "\f139"; }
 .flaticon-printer:before { content: "\f13a"; }
 .flaticon-profile:before { content: "\f13b"; }
+.flaticon-profile:hover { color: #f51167; }
 .flaticon-prohibition:before { content: "\f13c"; }
 .flaticon-push-pin:before { content: "\f13d"; }
 .flaticon-puzzle:before { content: "\f13e"; }

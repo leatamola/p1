@@ -1,6 +1,6 @@
 @extends('frontEnd.layouts.masterBarrios')
 
-@section('title','Home')
+@section('title','BUSCATI')
 
 @section('content')
 

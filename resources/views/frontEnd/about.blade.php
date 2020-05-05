@@ -1,5 +1,5 @@
 @extends('frontEnd.layouts.masterBarrios')
-@section('title','List Products')
+@section('title','BUSCATI - SOBRE NOSOTROS')
 @section('slider')
 @endsection
 @section('content')
@@ -18,7 +18,7 @@
 
 
 <!-- Contact section -->
-<section class="contact-section">
+<section class="contact-section mb-4">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 contact-info text-justify">

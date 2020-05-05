@@ -1,5 +1,5 @@
 @extends('frontEnd.layouts.masterBarrios')
-@section('title','Detalles del Producto')
+@section('title','BUSCATI - TIENDA SERVICIO')
 
 @section('content')
 <!-- Page info -->
